@@ -10,13 +10,18 @@
    npm install -D nodemon
 
 4. create index.js
-5. Make this a git repo
+5. edit package json file
+   "scripts": {
+   "start": "node index.js",
+   "dev": "nodemon index.js"
+   },
+6. Make this a git repo
 
    git init
    git add .
    git commit -m "message"
 
-6. Push it on GitHub
+7. Push it on GitHub
 
    Create github empty repo with same name "json-server-travel-book"
    git remote add origin url "...."
